@@ -1,0 +1,1 @@
+export { RentalInterface } from './Rental.interface';

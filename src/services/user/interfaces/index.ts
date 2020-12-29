@@ -1,0 +1,1 @@
+export { PersonInterface } from './Person.interface';

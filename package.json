@@ -1,0 +1,33 @@
+{
+  "name": "typescript-json-schema-alias-in-path",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturwita/typescript-json-schema-alias-in-path.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arturwita/typescript-json-schema-alias-in-path/issues"
+  },
+  "homepage": "https://github.com/arturwita/typescript-json-schema-alias-in-path#readme",
+  "dependencies": {
+    "module-alias": "^2.2.2",
+    "tiny-glob": "^0.2.8",
+    "ts-node": "^9.1.1",
+    "typescript-json-schema": "^0.46.0"
+  },
+  "_moduleAliases": {
+    "@": "./src"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.16"
+  }
+}
