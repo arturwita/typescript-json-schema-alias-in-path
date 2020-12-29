@@ -1,0 +1,1 @@
+# typescript-json-schema-alias-in-path
